@@ -1,0 +1,252 @@
+/* ----------Default styles --------*/
+:root {
+	--brand-color: #4d5ae5;
+	--main-text: #434455;
+	--second-text: #2e2f42;
+	--bg-color: #ffff;
+	--bg-button: #f4f4fd;
+	--border-button: #e7e9fc;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	color: var(--main-text);
+	background-color: var(--bg-color);
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+}
+.title {
+	color: var(--second-text);
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 111.111%;
+	letter-spacing: 0.72px;
+	text-transform: capitalize;
+}
+.subtitle {
+	color: var(--second-text);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+	letter-spacing: 0.4px;
+}
+.text {
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.32px;
+}
+
+/*! --------Main Styles------ */
+/* -------Header---------- */
+
+.header {
+}
+
+.header-nav {
+}
+.header-logo {
+	color: var(--brand-color);
+	font-family: Raleway, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.17;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+.header-logo span {
+	color: var(--second-text);
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+	color: var(--second-text);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+	color: #404bbf;
+}
+
+.header-address {
+	font-style: normal;
+}
+.header-address-list {
+}
+.header-address-item {
+}
+
+.header-address-link {
+	line-height: 150%;
+	letter-spacing: 0.32px;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+	color: #404bbf;
+}
+
+/*! -------Main------------ */
+
+.solutions {
+	background-color: var(--second-text);
+}
+
+.main-title {
+	color: var(--bg-color);
+	text-align: center;
+	font-size: 56px;
+	line-height: 107.143%;
+	letter-spacing: 1.12px;
+}
+.solution-btn {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	background-color: var(--brand-color);
+	color: var(--bg-color);
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	border: none;
+}
+
+.solution-btn:hover,
+.solution-btn:focus {
+	background-color: #404bbf;
+}
+
+/* -------Advantages-------------- */
+.advantages {
+}
+
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-subtile {
+}
+
+.advantages-text {
+}
+
+/* ------About--------- */
+
+.about {
+}
+
+.about-title {
+}
+
+.about-list {
+}
+.about-item {
+}
+
+/* --------Team---------- */
+
+.team {
+	background-color: #f4f4fd;
+}
+.team-title {
+}
+.title {
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+	background-color: #ffff;
+}
+.team-subtitle {
+}
+.subtitle {
+}
+.team-text {
+}
+.text {
+}
+
+/* !--------PAGE------------- */
+
+.page {
+}
+.page-filter {
+}
+
+/* ---------Filter----------- */
+.filter-list {
+}
+.filter-item {
+}
+.filter-link {
+}
+
+.filter-button {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--brand-color);
+	background-color: var(--bg-button);
+	border: 1px solid var(--border-button);
+	text-align: center;
+	line-height: 150%;
+	letter-spacing: 0.04em;
+}
+.filter-button:hover,
+.filter-button:focus {
+	background-color: #404bbf;
+	color: #ffffff;
+	border: none;
+}
+
+/* --------PageRows----------- */
+
+/* -------FOOTER------------ */
+.footer {
+	background-color: var(--second-text);
+}
+.footer-logo {
+	color: var(--brand-color);
+	font-family: Raleway, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.17;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+}
+
+.footer-logo span {
+	color: #f4f4fd;
+}
+.footer-text {
+	color: var(--bg-button);
+}
