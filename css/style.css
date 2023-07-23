@@ -48,6 +48,9 @@ button {
 	padding-left: 15px;
 	margin: 0 auto;
 }
+.section {
+	padding-bottom: 120px;
+}
 .link {
 	text-decoration: none;
 }
@@ -94,9 +97,18 @@ button {
 /* -------Header---------- */
 
 .header {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
 }
 
 .header-nav {
+	display: flex;
+	gap: 76px;
 }
 .header-logo {
 	color: var(--brand-color);
@@ -111,6 +123,8 @@ button {
 	color: var(--second-text);
 }
 .header-nav-list {
+	display: flex;
+	gap: 40px;
 }
 .header-nav-item {
 }
@@ -130,6 +144,8 @@ button {
 	font-style: normal;
 }
 .header-address-list {
+	display: flex;
+	gap: 40px;
 }
 .header-address-item {
 }
