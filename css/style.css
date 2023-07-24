@@ -113,6 +113,7 @@ img {
 .header {
 	padding-top: 24px;
 	padding-bottom: 24px;
+	border-bottom: 1px solid var(--border-button);
 }
 
 .header-container {
@@ -290,11 +291,17 @@ img {
 
 .page {
 }
-.page-filter {
+
+.main-section {
+	padding-top: 96px;
 }
 
 /* ---------Filter----------- */
 .filter-list {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+	margin-bottom: 72px;
 }
 .filter-item {
 }
@@ -311,15 +318,40 @@ img {
 	text-align: center;
 	line-height: 150%;
 	letter-spacing: 0.04em;
+
+	padding: 12px 24px;
+	border-radius: 4px;
 }
 .filter-button:hover,
 .filter-button:focus {
 	background-color: #404bbf;
 	color: #ffffff;
-	border: none;
+	border-color: #404bbf;
 }
 
 /* --------PageRows----------- */
+
+.page-row-list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 24px;
+	row-gap: 48px;
+}
+.page-row-item {
+}
+.page-row-link {
+}
+
+.page-row-content {
+	padding: 32px 16px;
+	border-right: 1px solid var(--border-button);
+	border-bottom: 1px solid var(--border-button);
+	border-left: 1px solid var(--border-button);
+}
+.page-row-subtitle {
+}
+.page-row-text {
+}
 
 /* -------FOOTER------------ */
 .footer {
