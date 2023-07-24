@@ -164,6 +164,7 @@ button {
 
 .solutions {
 	background-color: var(--second-text);
+	padding: 188px 0;
 }
 
 .main-title {
@@ -172,6 +173,11 @@ button {
 	font-size: 56px;
 	line-height: 107.143%;
 	letter-spacing: 1.12px;
+	/*==== box-model ====*/
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 48px;
+	max-width: 496px;
 }
 .solution-btn {
 	font-family: Roboto, sans-serif;
@@ -182,6 +188,11 @@ button {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	border: none;
+	/*==== box-model ====*/
+	padding: 16px 32px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 4px;
 }
 
 .solution-btn:hover,
